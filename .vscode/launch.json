@@ -5,21 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "validacep",
-            "request": "launch",
-            "type": "dart"
-        },
-        {
-            "name": "validacep (profile mode)",
-            "request": "launch",
+            "name": "Valida CEP",
             "type": "dart",
-            "flutterMode": "profile"
-        },
-        {
-            "name": "validacep (release mode)",
             "request": "launch",
-            "type": "dart",
-            "flutterMode": "release"
-        }
-    ]
+            "program": "lib/main/main.dart"
+        },
+            ]
 }
