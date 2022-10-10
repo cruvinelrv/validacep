@@ -2,20 +2,20 @@ import 'package:flutter/material.dart';
 import 'package:validacep/main/routes.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const App());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+class App extends StatelessWidget {
+  const App({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Busca CEP',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.red,
       ),
-      initialRoute: '/home',
+      initialRoute: '/landing',
       onGenerateRoute: Routes.onGenerateRoute,
       debugShowCheckedModeBanner: false,
     );

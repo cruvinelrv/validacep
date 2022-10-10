@@ -4,7 +4,7 @@ import 'package:validacep/features/search_cep/presentation/search_cep_page.dart'
 class Routes {
   static Route? onGenerateRoute(RouteSettings settings) {
     switch (settings.name) {
-      case '/home':
+      case '/landing':
         return MaterialPageRoute(
           builder: (context) => const SearchCepPage(
             title: 'Busca CEP',
